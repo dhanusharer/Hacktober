@@ -1,0 +1,122 @@
+[
+  {
+    "id": "queue",
+    "name": "Queue",
+    "category": "DSA",
+    "short_explanation": "A First-In, First-Out (FIFO) linear data structure where elements are added at the back (enqueue) and removed from the front (dequeue).",
+    "safe_observation_contexts": [
+      "Coffee shop order counter or bakery pickup line",
+      "Bus stop or transit ticket booth",
+      "Cars at a stop sign, toll booth, or drive-through lane",
+      "Pedestrians boarding a train or waiting for an elevator"
+    ]
+  },
+  {
+    "id": "stack",
+    "name": "Stack",
+    "category": "DSA",
+    "short_explanation": "A Last-In, First-Out (LIFO) collection where elements are added (pushed) and removed (popped) from the same end (the top).",
+    "safe_observation_contexts": [
+      "Tray return station or stacked plates in a cafeteria",
+      "Stack of newspapers, brochures, or books on a display table",
+      "Shipping boxes or grocery crates stacked vertically",
+      "Dishes in a drying rack or sink"
+    ]
+  },
+  {
+    "id": "linear_search",
+    "name": "Linear Search",
+    "category": "DSA",
+    "short_explanation": "A sequential search algorithm checking every element one by one from start to end until a match is found or the list ends.",
+    "safe_observation_contexts": [
+      "Looking for a specific book on an unsorted shelf",
+      "Browsing a row of drinks or snacks in a vending machine or store aisle",
+      "Finding a specific key on an unorganized keychain",
+      "Scanning a bulletin board or flyer wall for an event"
+    ]
+  },
+  {
+    "id": "binary_search",
+    "name": "Binary Search",
+    "category": "DSA",
+    "short_explanation": "An efficient search algorithm on sorted data that repeatedly halves the search interval by comparing against the middle element.",
+    "safe_observation_contexts": [
+      "Looking up a word in a printed physical dictionary or phone directory",
+      "Finding a numbered room or gate along a sorted corridor",
+      "Locating a house number on an evenly numbered street",
+      "Finding a date in a printed pocket calendar or catalogue"
+    ]
+  },
+  {
+    "id": "bottleneck",
+    "name": "Bottleneck",
+    "category": "Systems",
+    "short_explanation": "A point of congestion in a system that occurs when workload arrives faster than the slowest component can process it, limiting total throughput.",
+    "safe_observation_contexts": [
+      "A pedestrian bottleneck where a wide sidewalk narrows to a single door or turnstile",
+      "Single barista making specialty drinks while order cashiers take orders quickly",
+      "Escalator entrance during rush hour where a crowd waits to step onto steps",
+      "Traffic lane merge or road construction zone"
+    ]
+  },
+  {
+    "id": "scheduling",
+    "name": "Scheduling",
+    "category": "Systems",
+    "short_explanation": "The method by which work or tasks are assigned to resources (like CPU time or workers) using policies such as FIFO, priority, or round-robin.",
+    "safe_observation_contexts": [
+      "Crosswalk walk signals cycling between pedestrian and vehicle green phases",
+      "Kitchen order tickets being picked and cooked by priority or prep time",
+      "Transit departure boards coordinating bus or train bay assignments",
+      "Elevator dispatching cars to floors based on call button directions"
+    ]
+  },
+  {
+    "id": "classification",
+    "name": "Classification",
+    "category": "AI/ML",
+    "short_explanation": "A machine learning task of categorizing items into distinct predefined classes based on observed features or attributes.",
+    "safe_observation_contexts": [
+      "Multi-stream waste disposal bins (compost, recycle, landfill) and how items are sorted",
+      "Produce section sorting fruits by type, color, or organic status",
+      "Vehicles on the road grouped by size (bicycles, sedans, buses, trucks)",
+      "Mail or package sorting shelves categorized by postal code or destination"
+    ]
+  },
+  {
+    "id": "anomaly_detection",
+    "name": "Anomaly Detection",
+    "category": "AI/ML",
+    "short_explanation": "Identifying rare items, events, or observations that raise suspicion by differing significantly from the majority of normal patterns.",
+    "safe_observation_contexts": [
+      "A pedestrian walking a bicycle or carrying an unusually large umbrella in a crowd",
+      "A single parked vehicle of an unusual color, size, or orientation in a row of uniform cars",
+      "A flickering or out-of-sync light bulb among a row of steady streetlights",
+      "An unexpected sound or pause in a rhythmic ambient noise environment"
+    ]
+  },
+  {
+    "id": "sampling",
+    "name": "Sampling",
+    "category": "Data",
+    "short_explanation": "Selecting a representative subset of individuals or observations from a larger population to estimate characteristics of the whole.",
+    "safe_observation_contexts": [
+      "Counting the color of the first 10 cars passing by to estimate vehicle color distribution",
+      "Observing the shoes or bags of every 5th person passing a bench for 3 minutes",
+      "Checking the ripeness of 3 apples on top of a crate to estimate the whole batch",
+      "Recording ambient noise levels at 30-second intervals rather than continuously"
+    ]
+  },
+  {
+    "id": "duplicate_data",
+    "name": "Duplicate Data",
+    "category": "Data",
+    "short_explanation": "Identical or redundant records within a dataset that waste storage, cause ambiguity, and require deduplication.",
+    "safe_observation_contexts": [
+      "Multiple identical community flyers posted on the same bulletin board",
+      "Twin vending machines stocked with the exact same beverage selection",
+      "Two signs giving the exact same parking regulation or directional advice 10 feet apart",
+      "Identical menu boards displayed in two adjacent windows of a fast-food shop"
+    ]
+  }
+]
